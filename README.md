@@ -1,2 +1,2 @@
-# PyPassStretch
+# PyPassStrength
 Python Password Strength Checker.
