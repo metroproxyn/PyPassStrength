@@ -26,4 +26,8 @@ def check_password_strength(password):
 if __name__ == "__main__":
     password = input("Enter your password: ")
     result = check_password_strength(password)
-    print(result)   
+    print(result)
+"""
+This allows you to run the check_password_strength() function directly 
+from the command line by executing the password_strength_checker.py file.
+"""
