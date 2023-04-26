@@ -1,6 +1,6 @@
 import unittest
 # TODO: find more adequate name for the imported function
-from password_strength_checker import check_password_strength
+from password_strength_checker import password_strength_check
 
 class TestPasswordStrengthCheck(unittest.TestCase):
     def test_weak_password(self):

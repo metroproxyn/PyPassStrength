@@ -1,5 +1,5 @@
 import re
-def check_password_strength(password):
+def password_strength_check(password):
     """
     Checks the strength of a password.
 
@@ -25,7 +25,7 @@ def check_password_strength(password):
     
 if __name__ == "__main__":
     password = input("Enter your password: ")
-    result = check_password_strength(password)
+    result = password_strength_check(password)
     print(result)
 """
 This allows you to run the check_password_strength() function directly 
