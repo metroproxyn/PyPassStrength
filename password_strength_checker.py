@@ -22,3 +22,8 @@ def check_password_strength(password):
         return "Strong password"
     else:
         return "Weak password"
+    
+if __name__ == "__main__":
+    password = input("Enter your password: ")
+    result = check_password_strength(password)
+    print(result)   
