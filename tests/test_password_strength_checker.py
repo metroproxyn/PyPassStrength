@@ -18,3 +18,6 @@ class TestPasswordStrengthCheck(unittest.TestCase):
     def test_invalid_password(self):
         result = password_strength_check('12345')
         self.assertEqual(result, 'Invalid')
+
+if __name__ == '__main__':
+    unittest.main()
