@@ -1,4 +1,4 @@
 # Password Strength Checker script only has dependencies
 # that included in Python's standard library, 
 # so it doesn't need to be listed here.
-# But this file is handled for the future devlopment.
+# But this file is handled for the future development.
