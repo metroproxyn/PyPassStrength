@@ -1,4 +1,6 @@
 import re
+import getpass
+
 def password_strength_check(password):
     """
     Checks the strength of a password.
@@ -24,7 +26,7 @@ def password_strength_check(password):
         return "Weak password"
     
 if __name__ == "__main__":
-    password = input("Enter your password: ")
+    password = getpass.getpass(prompt="Enter your password: ")
     result = password_strength_check(password)
     print(result)
 """
