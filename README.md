@@ -18,7 +18,7 @@ You can also test the script against a list of sample passwords by creating a te
 
 Here are some examples of how to use the script:
 
-'''
+```
 $ python password_strength_checker.py
 Enter a password: password
 Your password is weak.
@@ -30,8 +30,7 @@ Your password is medium.
 $ python password_strength_checker.py
 Enter a password: MyP@ssw0rd!sV3ryStr0ng
 Your password is strong.
-
-'''
+```
 
 ### Contributing
 
